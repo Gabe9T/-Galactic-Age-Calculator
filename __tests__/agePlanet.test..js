@@ -6,7 +6,7 @@ describe('Input', () => {
 
   beforeEach(() => {
     person = new Input(19, 2, 23);
-  });
+  });  
 
   test('create a object with Input to get age in earth years', () => {
     expect(person.age).toEqual(19);
