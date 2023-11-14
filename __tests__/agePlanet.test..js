@@ -1,4 +1,3 @@
-
 import { Input } from '../src/js/agePlanet.js'
 
 describe('Input', () => {
