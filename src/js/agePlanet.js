@@ -53,6 +53,12 @@ export class Input {
     const pastMars = this.earthMars();
     return pastMars; 
   }
+
+  yearsJupiter() {
+    this.age = this.yearsPastBirthday();
+    const pastJupiter = this.earthJupiter();
+    return pastJupiter; 
+  }
 }
 
 

@@ -10,7 +10,7 @@ describe('Input', () => {
   test('create a object with Input to get age in earth years', () => {
     expect(person.age).toEqual(19);
   });
-//years to 
+//years to planet
 
   describe('solarYear()', () => {
     test('gets input age and convert to mercury solar year', () => {
@@ -42,7 +42,7 @@ describe('Input', () => {
     });
   });
 
-//Years past
+//Years past on planet to get to current age
   describe('yearsPastBirthday()', () => {
     test('returns ammount of Earth years need to have passed from current age to future age', () => {
       expect(person.yearsPastBirthday()).toEqual(4);
@@ -62,9 +62,14 @@ describe('Input', () => {
   });
 
   describe('yearsVenus()', () => {
-    test('returns how many years on venus have passed from certain age to current age', () => {
+    test('returns how many years on Venus have passed from certain age to current age', () => {
       expect(person.yearsMars()).toEqual(2.13);
     });
   });
-  
+
+  describe('yearsJupiter()', () => {
+    test('returns how many years on jupiter have passed from certain age to current age', () => {
+      expect(person.yearsJupiter()).toEqual(.34);
+    });
+  });
 });
