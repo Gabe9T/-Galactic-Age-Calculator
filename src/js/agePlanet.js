@@ -42,6 +42,12 @@ export class Input {
     return pastMercury;
   }
 
+  yearsVenus() {
+    this.age = this.yearsPastBirthday();
+    const pastVenus = this.earthVenus();
+    return pastVenus; 
+  }
+
 }
 
 
