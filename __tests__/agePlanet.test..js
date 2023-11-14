@@ -18,6 +18,7 @@ describe('Input', () => {
     });
   });
 
+
   describe('earthMercury()', () => {
     test('return mercury age in years', () => {
       expect(person.earthMercury()).toEqual(79.17);
@@ -35,4 +36,11 @@ describe('Input', () => {
       expect(person.earthMars()).toEqual(10.11);
     });
   });
+
+  describe('earthJupiter()', () => {
+    test('return Jupiter age in years', () => {
+      expect(person.earthJupiter()).toEqual(1.60);
+    });
+  });
+
 });

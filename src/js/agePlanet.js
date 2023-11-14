@@ -23,6 +23,11 @@ export class Input {
       let ageOnMars = this.convertAge(1.88);
       return ageOnMars;
     }
+
+    earthJupiter() {
+      let ageOnJupiter = this.convertAge(11.86);
+      return ageOnJupiter;
+    }
 }
 
 
