@@ -12,6 +12,11 @@ describe('Input', () => {
     expect(person.age).toEqual(19);
   });
 
+  describe('solarYear()', () => {
+    test('gets input age and convert to mercury solar year', () => {
+      expect(person.convertAge(0.24)).toEqual(79.17);
+    });
+  });
 
 
 });

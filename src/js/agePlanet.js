@@ -4,4 +4,10 @@ export class Input {
       this.futureBirthday = futureBirthday;
       this.pastBirthday = pastBirthday;
     }
+
+    convertAge(solarYear) {
+      const ageOnPlanet = parseInt(this.age) / solarYear;
+      return Math.round(ageOnPlanet * 100) / 100;
+    }
 }
+
