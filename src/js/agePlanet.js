@@ -47,7 +47,6 @@ export class Input {
     const pastVenus = this.earthVenus();
     return pastVenus; 
   }
-
 }
 
 
