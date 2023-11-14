@@ -61,8 +61,8 @@ describe('Input', () => {
     });
   });
 
-  describe('yearsVenus()', () => {
-    test('returns how many years on Venus have passed from certain age to current age', () => {
+  describe('yearsMars()', () => {
+    test('returns how many years on Mars have passed from certain age to current age', () => {
       expect(person.yearsMars()).toEqual(2.13);
     });
   });
@@ -72,5 +72,5 @@ describe('Input', () => {
       expect(person.yearsJupiter()).toEqual(.34);
     });
   });
-  
+
 });
