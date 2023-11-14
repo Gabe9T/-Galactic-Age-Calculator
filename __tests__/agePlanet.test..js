@@ -30,6 +30,10 @@ describe('Input', () => {
     });
   });
 
-
+  describe('earthMars()', () => {
+    test('return mars age in years', () => {
+      expect(person.earthMars()).toEqual(10.11);
+    });
+  });
 
 });

@@ -19,6 +19,10 @@ export class Input {
       return ageOnVenus;
     }
 
+    earthMars() {
+      let ageOnMars = this.convertAge(1.88);
+      return ageOnMars;
+    }
 }
 
 
