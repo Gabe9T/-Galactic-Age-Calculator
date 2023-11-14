@@ -9,6 +9,7 @@ export class Input {
     const ageOnPlanet = parseInt(this.age) / solarYear;
     return Math.round(ageOnPlanet * 100) / 100;
   }
+  //years to
   earthMercury() {
     let ageOnMercury = this.convertAge(.24);
     return ageOnMercury;
@@ -28,7 +29,13 @@ export class Input {
     let ageOnJupiter = this.convertAge(11.86);
     return ageOnJupiter;
   }
+  //years past 
   
+  yearsPastBirthday() {
+    const earthPast = parseInt(this.pastBirthday - this.age );
+    return earthPast;
+  }
+
 }
 
 

@@ -10,13 +10,13 @@ describe('Input', () => {
   test('create a object with Input to get age in earth years', () => {
     expect(person.age).toEqual(19);
   });
+//years to 
 
   describe('solarYear()', () => {
     test('gets input age and convert to mercury solar year', () => {
       expect(person.convertAge(0.24)).toEqual(79.17);
     });
   });
-
 
   describe('earthMercury()', () => {
     test('return mercury age in years', () => {
@@ -39,6 +39,13 @@ describe('Input', () => {
   describe('earthJupiter()', () => {
     test('return Jupiter age in years', () => {
       expect(person.earthJupiter()).toEqual(1.60);
+    });
+  });
+
+//Years past
+  describe('yearsPastBirthday()', () => {
+    test('returns ammount of Earth years need to have passed from current age to future age', () => {
+      expect(person.yearsPastBirthday()).toEqual(4);
     });
   });
 
