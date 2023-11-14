@@ -48,5 +48,4 @@ describe('Input', () => {
       expect(person.yearsPastBirthday()).toEqual(4);
     });
   });
-
 });
