@@ -10,8 +10,13 @@ export class Input {
       return Math.round(ageOnPlanet * 100) / 100;
     }
     earthMercury() {
-      let ageOnMercury = this.convertAge(0.24);
+      let ageOnMercury = this.convertAge(.24);
       return ageOnMercury;
+    }
+
+    earthVenus() {
+      let ageOnVenus = this.convertAge(.62);
+      return ageOnVenus;
     }
 }
 

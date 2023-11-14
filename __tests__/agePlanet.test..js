@@ -24,4 +24,10 @@ describe('Input', () => {
     });
   });
 
+  describe('earthVenus()', () => {
+    test('return venus age in years', () => {
+      expect(person.earthVenus()).toEqual(30.65);
+    });
+  });
+
 });
