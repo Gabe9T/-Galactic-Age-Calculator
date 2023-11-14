@@ -48,4 +48,9 @@ describe('Input', () => {
       expect(person.yearsPastBirthday()).toEqual(4);
     });
   });
+  describe('yearsMercury()', () => {
+    test('returns how many years on mercury have passed from certain age to current age', () => {
+      expect(person.yearsMercury()).toEqual(16.67);
+    });
+  });
 });

@@ -36,6 +36,12 @@ export class Input {
     return earthPast;
   }
 
+  yearsMercury() {
+    this.age = this.yearsPastBirthday();
+    const pastMercury = this.earthMercury();
+    return pastMercury;
+  }
+
 }
 
 
