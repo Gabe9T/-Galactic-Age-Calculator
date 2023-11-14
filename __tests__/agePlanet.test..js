@@ -60,9 +60,11 @@ describe('Input', () => {
       expect(person.yearsVenus()).toEqual(6.45);
     });
   });
+
   describe('yearsVenus()', () => {
     test('returns how many years on venus have passed from certain age to current age', () => {
       expect(person.yearsMars()).toEqual(2.13);
     });
   });
+  
 });
