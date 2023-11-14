@@ -18,5 +18,10 @@ describe('Input', () => {
     });
   });
 
+  describe('earthMercury()', () => {
+    test('return mercury age in years', () => {
+      expect(person.earthMercury()).toEqual(79.17);
+    });
+  });
 
 }); 

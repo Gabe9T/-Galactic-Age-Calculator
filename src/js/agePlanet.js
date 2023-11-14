@@ -9,4 +9,10 @@ export class Input {
       const ageOnPlanet = parseInt(this.age) / solarYear;
       return Math.round(ageOnPlanet * 100) / 100;
     }
+    earthMercury() {
+      let ageOnMercury = this.convertAge(0.24);
+      return ageOnMercury;
+    }
 }
+
+
