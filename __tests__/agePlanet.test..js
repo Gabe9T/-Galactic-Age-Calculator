@@ -35,5 +35,4 @@ describe('Input', () => {
       expect(person.earthMars()).toEqual(10.11);
     });
   });
-
 });
