@@ -10,4 +10,3 @@ export class Input {
       return Math.round(ageOnPlanet * 100) / 100;
     }
 }
-
