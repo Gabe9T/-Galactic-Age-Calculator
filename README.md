@@ -11,12 +11,12 @@
 an application that determines a user's age based on a planet's solar years.
 
 ## Setup/Installation Requirements
-* Go to the repository https://github.com/Gabe9T/projectweek5.  
+* Go to the repository [https://github.com/Gabe9T/projectweek5. ](https://github.com/Gabe9T/projectweek5) 
 * Clone the project by clicking the green button and copying the link  
 * Open command line and set up a new repo 
-* In  terminal paste (git clone https://github.com/Gabe9T/projectweek5.git)then press enter.
+* In console paste (git clone https://github.com/Gabe9T/projectweek5.git) then press enter
 * to open the project type <code> code .</code> in your console
-* Once the project is opened in VsCode type (npm install)into your termial
+* Once the project is opened in VsCode type (npm install) into your termial
 * To run the test type (npm run test) into the terminal
 
 
