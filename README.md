@@ -11,10 +11,13 @@
 an application that determines a user's age based on a planet's solar years.
 
 ## Setup/Installation Requirements
-* _Download VsCode https://www.youtube.com/watch?v=ITxcbrfEcIY_
-* _Clone This Repo To VsCode https://github.com/P2NTS/projectweek4_
-* _Install Live Server Extension For VsCode https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer_
-* _After Installing Either Click "Go Live" On Bottom Right of Vscode Or Right Click And press "Open With Live Server On The Index.html File_
+* Go to the repository https://github.com/Gabe9T/projectweek5.  
+* Clone the project by clicking the green button and copying the link  
+* Open command line and set up a new repo 
+* In  terminal paste (git clone https://github.com/Gabe9T/projectweek5.git)then press enter.
+* to open the project type <code> code .</code> in your console
+* Once the project is opened in VsCode type (npm install)into your termial
+* To run the test type (npm run test) into the terminal
 
 
 
